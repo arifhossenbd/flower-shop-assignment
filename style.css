@@ -1,10 +1,16 @@
 /* header section */
+
+
+body{
+    background-color: #FFFFFF;
+    width: auto;
+}
 header{
     background-color: #E554731A;
     display: flex;
     padding: 0px 100px 0px 100px;
     margin: 0%;
-    width: 1960px;
+    width: 1600px;
 }
 .banner{
     display: flex;
@@ -149,7 +155,7 @@ ul, li{
     color: #E55473;
 }
 .hot-deals{
-    width: 1922px;
+    width: 1822px;
     height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -164,7 +170,7 @@ ul, li{
 
 /* Footer section */
 footer{
-    width: 1922px;
+    width: 1820px;
     height: 449px;
     flex-shrink: 0;
     background: #111010;
