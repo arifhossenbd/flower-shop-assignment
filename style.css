@@ -1,115 +1,99 @@
 /* header section */
 
 
-body{
-    background-color: #FFFFFF;
-    width: auto;
-}
 header{
     background-color: #E554731A;
     display: flex;
-    padding: 0px 100px 0px 100px;
     margin: 0%;
-    width: 1600px;
-}
-.banner{
-    display: flex;
-    margin: 0px;
-    padding: 0px 100px 0px 100px;
 }
 .img{
-    width: 635px;
-    height: 800px;
-    flex-shrink: 0;
-    padding: 0px 200px 0px 100px;
+    width: 435px;
+    height: 550px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 .header-tittle{
-    display: flex;
-    width: 708px;
-    flex-direction: column;
-    flex-shrink: 0;
+    width: 650px;
+    margin-left: 50px;
     color: #272727;
     font-family: Lato;
-    font-size: 90px;
-    font-style: normal;
+    font-size: 80px;
     font-weight: 800;
-    line-height: normal;
 }
 .header-description{
-    display: flex;
-    width: 634px;
-    flex-direction: column;
-    flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    margin-left: 50px;
 }
 .btn-primary{
     display: flex;
-    padding: 20px 43px;
+    padding: 10px 23px;
     border-radius: 8px;
     border: 0;
     background: #E55473;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
+    margin-bottom:10% ;
+    margin-left: 50px;
 }
 
 /* main section */
 
-.feature-section{
-    text-align: center;
-}
+
+
 .feature-section-tittle{
     text-align: center;
     color: #272727;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-weight: 600;
     }
 .feature-description{
-    text-align: center;;
+    text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    width: 500px;
+    margin-left: 425px;
 }
 .feature-section{
-    text-align: center;
     margin: auto;
 }
 ul, li{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: px;
     margin-top: 2%;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
 .pngwing1{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
     flex-shrink: 0;
 
 }
 .pngwing2{
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 .pngwing3{
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -117,7 +101,7 @@ ul, li{
 .item-tittle-container{
     display: flex;
     justify-content: center;
-    gap: 360px;
+    gap: 260px;
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -133,45 +117,29 @@ ul, li{
 .service-section{
     justify-content: center;
     display: flex;
-    margin: auto;
-    width: 1520px;
-    height: 320px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: auto;
     margin-bottom: 10%;
-    margin-left: 8.5%;
+    height: 300px;
+    margin-right: 40px;
+    margin-left: 70px;
 }
 .service-image{
+    display: flex;
+    justify-content: center;
     width: 80px;
     height: 80px;
-    gap: 340%;
     display: flex;
-    margin-top: 3%;
-    margin-left: 1%;
-}
+    margin-left: 1500px;
+    margin-right: 0px;
+    gap: 200px;
 .service-tittle{
-    color: #E55473;
-}
-.hot-deals{
-    width: 1822px;
-    height: 620px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-}
-.pngwing8{
     display: flex;
-    width: 318px;
-    height: 420px;
 }
 
 
 /* Footer section */
 footer{
-    width: 1820px;
-    height: 449px;
     flex-shrink: 0;
     background: #111010;
     text-align: center;
@@ -182,7 +150,7 @@ footer{
     font-family: Lato;
     font-size: 48px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
     margin-top: 5%;
     margin-right: 4%;
